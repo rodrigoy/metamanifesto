@@ -9,12 +9,6 @@ describe 'nao sei ainda o que' do
     Sinatra::Application
   end
 
-  it "deveria entrar na index" do
-    get '/'
-    last_response.should be_ok
-    last_response.body.should include 'vamos nessa rodrigoy'
-  end
-
   context 'salvando o manifesto' do
     it 'deveria salvar os 4 itens do manifesto' do
       post '/manifesto', :titulo => 'titulo',
