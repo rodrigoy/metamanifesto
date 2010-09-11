@@ -12,6 +12,35 @@ describe 'nao sei ainda o que' do
   it "deveria entrar na index" do
     get '/'
     last_response.should be_ok
-    #last_response.body.should == 'vamos nessa rodrigoy'
+    last_response.body.should include 'vamos nessa rodrigoy'
+  end
+
+  context 'salvando o manifesto' do
+    it 'deveria salvar os 4 itens do manifesto' do
+      post '/manifesto', :titulo => 'titulo',
+      :esquerda1 => 'esquerda1',
+      :direita1 => 'direita1',
+      :esquerda2 => 'esquerda2',
+      :direita1 => 'direita2',
+      :esquerda3 => 'esquerda3',
+      :direita3 => 'direita3',
+      :esquerda4 => 'esquerda4',
+      :direita4 => 'direita4'
+
+      #follow_redirect!
+      
+      last_response.headers["location"].should == "/manifesto/titulo"
+
+      get '/manifesto/titulo'
+      
+      last_response.body.should include "esquerda1"
+      last_response.body.should include "direita1"
+      last_response.body.should include "esquerda2"
+      last_response.body.should include "direita2"
+      last_response.body.should include "esquerda3"
+      last_response.body.should include "direita3"
+      last_response.body.should include "esquerda4"
+      last_response.body.should include "direita4"
+    end
   end
 end
