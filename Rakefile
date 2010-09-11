@@ -2,7 +2,6 @@
 require "spec/rake/spectask"
 
 Spec::Rake::SpecTask.new do |task|
-    #task.spec_opts = ['--colour --format specdoc --loadby mtime --reverse']
     task.libs << 'lib'
     task.rcov = true
     task.spec_files = FileList['spec/**/*.rb']
