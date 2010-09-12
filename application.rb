@@ -2,7 +2,6 @@ require 'rubygems'
 require 'sinatra'
 require 'erb'
 require 'uri'
-require 'manifesto'
 
 set :views, File.dirname(__FILE__) + '/views'
 

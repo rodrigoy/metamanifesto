@@ -15,7 +15,7 @@ class ManifestoStore
     esquerda3, direita3,
     esquerda4, direita4)
 
-    raise 'Esse slug já existe' if find (slug)
+    raise 'Esse slug já existe' if find slug
 
     @collection.insert({:_id => next_id,
       :slug => slug,
