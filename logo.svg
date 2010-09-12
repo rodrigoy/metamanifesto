@@ -58,7 +58,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -73,7 +73,10 @@
        height="34.560276"
        x="233.7083"
        y="195.0204"
-       ry="0.59495729" />
+       ry="0.59495729"
+       inkscape:export-filename="/home/rodrigoy/projetos/metamanifesto/public/logo.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
     <path
        sodipodi:type="arc"
        style="opacity:0.45065792;fill:#000080;fill-opacity:1;stroke:none"
@@ -85,35 +88,59 @@
        d="m 288.57142,293.79074 a 72.85714,72.85714 0 1 1 -9.10466,-35.26733 l -63.75248,35.26733 z"
        sodipodi:start="0"
        sodipodi:end="5.7778951"
-       transform="matrix(0.23261723,0,0,0.23261723,193.8311,107.07331)" />
+       transform="matrix(0.23261723,0,0,0.23261723,193.8311,107.07331)"
+       inkscape:export-filename="/home/rodrigoy/projetos/metamanifesto/public/logo.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
     <path
        style="opacity:0.45065792;fill:#000080;fill-opacity:1;stroke:none"
        d="m 264.28089,195.68505 13.29241,3.98771 -5.98159,-21.93249 7.31082,-1.99385 6.64622,28.57868 -20.60324,-0.66461 -0.66462,-7.97544 z"
-       id="path2820" />
+       id="path2820"
+       inkscape:export-filename="/home/rodrigoy/projetos/metamanifesto/public/logo.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
     <path
        style="opacity:0.45065792;fill:#000080;fill-opacity:1;stroke:none"
        d="m 266.27475,168.4356 31.23717,-17.94476 3.32309,20.60323 -34.56026,-2.65847 z"
-       id="path2822" />
+       id="path2822"
+       inkscape:export-filename="/home/rodrigoy/projetos/metamanifesto/public/logo.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
     <path
        style="opacity:0.45065792;fill:#000080;stroke:#808000;stroke-width:2.1688683;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 304.15812,153.14932 15.9509,-8.64008"
-       id="path2824" />
+       id="path2824"
+       inkscape:export-filename="/home/rodrigoy/projetos/metamanifesto/public/logo.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
     <path
        style="opacity:0.45065792;fill:#000080;stroke:#808000;stroke-width:2.1688683;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 306.15198,161.78939 15.28628,-1.99387"
-       id="path2826" />
+       id="path2826"
+       inkscape:export-filename="/home/rodrigoy/projetos/metamanifesto/public/logo.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
     <path
        style="opacity:0.45065792;fill:#000080;stroke:#808000;stroke-width:2.1688683;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 306.81662,169.76483 14.62164,5.31697"
-       id="path2828" />
+       id="path2828"
+       inkscape:export-filename="/home/rodrigoy/projetos/metamanifesto/public/logo.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
     <path
        style="opacity:0.45065792;fill:#000080;stroke:#808000;stroke-width:2.1688683;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 307.48123,165.77711 13.95703,1.32925"
-       id="path2830" />
+       id="path2830"
+       inkscape:export-filename="/home/rodrigoy/projetos/metamanifesto/public/logo.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
     <path
        style="opacity:0.45065792;fill:#000080;stroke:#808000;stroke-width:2.1688683;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 306.81662,156.47243 13.95702,-4.65235"
-       id="path2832" />
+       id="path2832"
+       inkscape:export-filename="/home/rodrigoy/projetos/metamanifesto/public/logo.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot3627-4"
